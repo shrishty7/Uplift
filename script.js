@@ -7,8 +7,8 @@ var words = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
     skip_count = 0,
     skip_delay = 6,
     speed = 50;
-var wordflick = function () {
-    setInterval(function () {
+var wordflick = function() {
+    setInterval(function() {
         if (forwards) {
             if (offset >= words[i].length) {
                 ++skip_count;
@@ -17,8 +17,7 @@ var wordflick = function () {
                     skip_count = 0;
                 }
             }
-        }
-        else {
+        } else {
             if (offset == 0) {
                 forwards = true;
                 i++;
@@ -40,6 +39,6 @@ var wordflick = function () {
     }, speed);
 };
 
-$(document).ready(function () {
+$(document).ready(function() {
     wordflick();
 });
