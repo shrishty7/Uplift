@@ -483,8 +483,23 @@ DROPDOWN */
     position: relative;
     top: 50%;
     left: 50%;
+    width: 18rem;
     transform: translate(-50%, -50%);
     border: white 2px solid;
+    background-color: white;
+}
+
+.card-body::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 1.5em;
+    border: 0.75rem solid transparent;
+    border-top: none;
+    transform: scale(3, 3);
+    border-bottom-color: #fff;
 }
 
 .sub {
