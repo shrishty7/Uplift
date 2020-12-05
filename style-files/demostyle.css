@@ -466,6 +466,14 @@ DROPDOWN */
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
+hr {
+    margin: 0 !important;
+}
+
+h4 {
+    margin: 0 !important;
+}
+
 
 /* HomePage section2 */
 
@@ -541,9 +549,7 @@ DROPDOWN */
 }
 
 footer {
-    margin-top: 4%;
     margin-bottom: 0;
-    ;
 }
 
 .contains-sec {
